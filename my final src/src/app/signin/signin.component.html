@@ -1,0 +1,21 @@
+<!-- <p>
+  Welcome {{name}}
+  <a  routerLink="/login"  routerLinkActive="active">=>Log out</a>
+</p> -->
+<body>
+  welcome{{name}}
+  
+    <div class="row" >
+        <a href="javascript:void(0);" (click)="logout()">Logout</a>
+      <div class="col-md-4" *ngFor="let item of bikes" >
+        <div class="maincontainer">
+          <div class="card">
+            <a>
+              <img class="img-responsive" src={{item.url}} />
+            </a>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </body>

@@ -1,0 +1,125 @@
+/* You can add global styles to this file, and also import other style files */
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #445649;
+  
+  }
+  
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .buttons {
+    align-content: center;
+  }
+  
+  .footer {
+    overflow: hidden;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  
+  }
+  
+  .container1 {
+    width: 95%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    padding: 2px 16px;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+  
+  
+  
+  }
+  
+  .img {
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  
+  
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {
+    height: 450px
+  }
+  
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height:200%;
+  }
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+  
+    .row.content {
+      height: auto;
+    }
+  }
+  
+  .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    padding-top: 9px;
+  }
+  
+
+  
+  p {
+    font-size: 16px;
+  }
+  
